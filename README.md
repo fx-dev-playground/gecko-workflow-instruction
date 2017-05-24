@@ -135,6 +135,8 @@ Host reviewboard-hg.mozilla.org
     *   Enter a Bugzilla API Key
 *   Installing MozReview Git Tools
     *   ```./mach mercurial-setup```
+    *  Then it will clone version-control-tools to **~/.mozbuild/version-control-tools**.
+    *  ```export PATH=/path/to/version-control-tools/git/commands:$PATH```
 *   ```git config --global```
     *   ```bz.username``` - Bugzilla Username
     *   ```bz.apikey``` - Bugzilla [API Key](https://bugzilla.mozilla.org/userprefs.cgi?tab=apikey)
